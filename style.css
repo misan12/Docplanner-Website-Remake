@@ -1,7 +1,9 @@
+/* Importing The Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@100;300&display=swap');
 
+/* Style For The Header */
 li, a{
     font-family: Roboto;
     font-size: 16px;
@@ -42,6 +44,7 @@ header h2 i{
 header h2 img{
     width: 25px;
 }
+/* style for the first header and two paragraphs */
 .ab{
     text-align: center;
     width: 100%;
@@ -78,6 +81,7 @@ header h2 img{
 .intro-text p{
     margin: 0 0 10px;
 }
+/* style for the dropdown menu */
 .dropdown{
     width: 75%;
     position: relative;
@@ -156,7 +160,7 @@ header h2 img{
 .menu ul{
     list-style: none;
 }
-
+/* style for the background and text for the dropdown */
 .bc{
     margin: 90px 0 20px;
     border: 3px #00ccb1 solid;
@@ -223,6 +227,7 @@ header h2 img{
     display: flex;
     gap: 30em;
 }
+/* style for the 'World biggest Healthcare Platform'  Heading */
 .row3{
     background-color: #d0faf4;
     display: flex;
@@ -304,6 +309,7 @@ header h2 img{
     font-size: 16px;
     color: #747474;
 }
+/* style for the openings section */
 .box img{
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
@@ -325,16 +331,19 @@ header h2 img{
     font-size: 15px;
 
 }
-.row5{
+.bb{
     margin-top: 150px;
 }
 .row5, .row6, .row7{
-    display: flex;
-    gap: 1em;
-    margin-left: 16em;
+    display: grid;
+    grid-template-columns: 20em 20em 20em;
+    grid-template-rows: 7em 7em 7em;
+    margin-left: 18em;
+    margin-top: 20px;
 }
 .box{
-    margin-top: 10px;
+    height: 300%;
+    width: 97%;
 }
 .box:hover{
     border-radius: 6px;
@@ -375,6 +384,7 @@ header h2 img{
 .op{
     margin-left: 39em;
 }
+/* style for the footer */
 footer{
     text-align: center;
 }
